@@ -15,9 +15,9 @@ from datetime import datetime, timedelta
 from threading import Timer
 import pygame 
 
-
 start_time = time()
 engine = pyttsx3.init()
+voices = engine.getProperty('voices')
 
 # Nombre del asistente virtual
 #RUNA = Responsive User Navigation Assistant
